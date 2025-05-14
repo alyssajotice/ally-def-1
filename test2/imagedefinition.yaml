@@ -1,0 +1,17 @@
+$schema: 1.0
+name: Cutomimage
+image: gallery1/Defination1@2025.04.23
+tasks:
+  - name: ~/winget
+    description: Install Foxit Reader
+    parameters:
+      package: Foxit.FoxitReader
+  - name: ~/winget
+    description: Install Google Chrome
+    parameters:
+      package: Google.Chrome
+  - name: choco
+    parameters:
+      package: filezilla
+ 
+ 
