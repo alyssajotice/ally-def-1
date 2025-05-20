@@ -1,0 +1,12 @@
+$schema: '1.0'
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc-os
+name: Image
+tasks:
+- description: Install Foxit Reader
+  name: ~/winget
+  parameters:
+    package: Foxit.FoxitReader
+- description: Install Google Chrome
+  name: ~/winget
+  parameters:
+    package: Google.Chrome
